@@ -1,0 +1,14 @@
+<view class="body">
+  <view class="lunbo">
+    <image src="./img/3.jpg" class="img"></image>
+  </view>
+  <view class="center"></view>
+  <view id="biao">
+    <navigator url="../logs/logs">
+
+      <text class="iconfont icon-17" style="font-size:40px;color:#D2B087">
+</text>
+    </navigator>
+
+  </view>
+</view>

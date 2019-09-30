@@ -1,0 +1,16 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <view>
+  手机号：15538459878
+  <button type="default" bindtap="calling">拨打电话</button>
+
+  </view>
+  <view id="biao">
+    <navigator url="../logs/logs">
+
+      <text class="iconfont icon-17" style="font-size:50px;color:#D2B087">
+</text>
+    </navigator>
+
+  </view>
+</view>
