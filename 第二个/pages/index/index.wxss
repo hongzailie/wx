@@ -18,7 +18,45 @@
   flex-grow: 1;
   height: 100px;
 }
-.foot{
-  height: 50px;
-  background: red;
+.message{
+  width: 85%;
+  margin-left: 10%;
+  height: 180px;
+  box-shadow: 2px 4px 6px #ccc;
+  z-index: 99;
+  margin-top: -40px;
+  position: fixed;
+  background: white;
+}
+.user{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.lianxi{
+  width: 100%;
+  height: 40px;
+  float: left;
+}
+.phone{
+  font-size: 14px;
+  line-height: 40px;
+  margin-left: 10px;
+}
+.number{
+  font-size: 12px;
+  line-height: 40px;
+  margin-left: 10px;
+}
+.but{
+  width: 60px;
+  height: 30px;
+  margin-top: 5px;
+  font-size: 12px;
+  line-height: 30px;
+  margin-left: 20px;
+  float: right;
+  margin-right: 10px;
 }

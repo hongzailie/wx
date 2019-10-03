@@ -9,6 +9,26 @@ Page({
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo')
   },
+  calling: function () {
+    //  微信自带一件拨打电话
+    wx.makePhoneCall({
+
+      phoneNumber: '18995379965',
+
+      success: function () {
+
+        console.log("拨打电话成功！")
+
+      },
+
+      fail: function () {
+
+        console.log("拨打电话失败！")
+
+      }
+
+    })
+  },
   //事件处理函数
   bindViewTap: function() {
     wx.navigateTo({

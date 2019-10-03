@@ -5,12 +5,29 @@
   <button type="default" bindtap="calling">拨打电话</button>
 
   </view>
-  <view id="biao">
-    <navigator url="../logs/logs">
-
-      <text class="iconfont icon-17" style="font-size:50px;color:#D2B087">
-</text>
+ <view id="biao">
+    <navigator url="../index/index">
+    <view class="shang">
+       <text class="iconfont icon-1" style="font-size:25px;color:#D2B087"></text>
+    </view>
+     
+      <text class="zi">名片</text>
     </navigator>
 
+    <navigator url="../logs/logs">
+    <view class="shang">
+       <text class="iconfont icon-17" style="font-size:25px;color:#D2B087"></text>
+    </view>
+     
+      <text class="zi">项目</text>
+    </navigator>
+
+    <navigator url="../home/home">
+    <view class="shang">
+       <text class="iconfont icon-7" style="font-size:25px;color:#D2B087"></text>
+    </view>
+     
+      <text class="zi">简历</text>
+    </navigator>
   </view>
 </view>

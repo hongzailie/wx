@@ -1,2 +1,33 @@
 <!--pages/home/home.wxml-->
-<text>pages/home/home.wxml</text>
+<view class="jianli">
+<view class="center">
+ <view class="lunbo">
+      <image src="../index/img/31.jpg" class="img"></image>
+    </view>
+</view>
+   <view id="biao">
+    <navigator url="../index/index">
+    <view class="shang">
+       <text class="iconfont icon-1" style="font-size:25px;color:#D2B087"></text>
+    </view>
+     
+      <text class="zi">名片</text>
+    </navigator>
+
+    <navigator url="../logs/logs">
+    <view class="shang">
+       <text class="iconfont icon-17" style="font-size:25px;color:#D2B087"></text>
+    </view>
+     
+      <text class="zi">项目</text>
+    </navigator>
+
+    <navigator url="../home/home">
+    <view class="shang">
+       <text class="iconfont icon-7" style="font-size:25px;color:#D2B087"></text>
+    </view>
+     
+      <text class="zi">简历</text>
+    </navigator>
+  </view>
+</view>

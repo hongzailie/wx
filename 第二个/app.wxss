@@ -43,12 +43,26 @@
   content: "\e627";
 }
 #biao{
+  width: 100%;
   position: fixed;
-  bottom: 0rpx;
+  bottom: 0;
   display: flex;
   justify-content: space-around;
-
+  height: 60px;
 }
-
-
+.shang{
+  height: 30px;
+  width: 30px;
+}
+.iconfont{
+  line-height: 30px;
+  margin: 0 auto;
+}
+.zi{
+  font-size: 14px;
+  line-height: 30px;
+}
+.zi:hover{
+  color: blue;
+}
 

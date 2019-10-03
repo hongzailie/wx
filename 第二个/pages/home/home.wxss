@@ -1,1 +1,14 @@
 /* pages/home/home.wxss */
+.lunbo{
+  width: 100%;
+  height: 150px;
+  background: brown;
+}
+.img{
+  width: 100%;
+  height: 150px;
+}
+.center{
+  flex-grow: 1;
+  height: 100px;
+}
